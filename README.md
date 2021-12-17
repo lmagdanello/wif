@@ -1,10 +1,10 @@
 # WIF (Where is the file?)
 
-I find it annoying sometimes having to do a ```pwd``` and then copy the name of the file I want.
+I find it a bit boring that sometimes I need to do a ```pwd``` and copy the filename or try to remember the entire path I'm working on. 
 
-For that I created the WIF. 
+I know readlink does this, but you need to pass more arguments in addition to your file/directory name.  
 
-You pass as the first argument the name of your file and it identifies if it is a regular file, directory or symbolic link and brings you the entire path.
+That's why I created the WIF: just tell it the file/directory you want to analyze, it will show you its absolute path and its type (regular file? directory? maybe a symbolic link?)
 
 Like that:
 
